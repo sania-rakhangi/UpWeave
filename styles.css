@@ -158,13 +158,14 @@ h3, h4{
     border-radius: 1rem;
     color: var(--text-color1);
 }
-.color-name{
+.color-name,.color-name-p{
     display: flex;
     place-items: center;
     justify-content: center;
     font-size: 1.25rem;
     font-weight: 600;
     padding: 1rem;
+    cursor: pointer;
 }
 .color{
     width: 1rem;
@@ -224,3 +225,6 @@ h3, h4{
     border-radius: 0.5rem;
     cursor: pointer;
 }
+
+
+
